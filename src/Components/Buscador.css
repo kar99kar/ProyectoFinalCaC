@@ -1,0 +1,32 @@
+
+.containerBuscador{
+    display:flex;
+    justify-content: center;
+ 
+}
+
+/*posicion relativa y posicion absoluta pierde su posicion originl y se posiciona sobre el primer padre*/
+.cajaBuscador{
+    position: relative;
+
+
+}
+.botonBuscador{
+    position:absolute;
+    right:0;
+    top:0 ;
+    cursor:pointer;
+    border:none;
+    height: 100%;
+    background: none;
+    color:blue;
+
+}
+
+.inputBuscador{
+    height: 35px;
+    border-radius: 10px ;
+    padding: 5px 30px 5px 10px;
+} 
+/*padding 
+: left top right botton*/

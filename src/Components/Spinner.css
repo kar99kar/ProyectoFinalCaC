@@ -1,0 +1,15 @@
+.spinner{
+       display: flex;
+       justify-content: center;
+}
+.spinning{
+    animation: spinner 1s infinite ;
+
+}
+/*animation me pide de parametros un nombre (spinner) duracion para que gire(1s) timer(infinite) y una funcion*/
+/*con keyframes le damos la animacion */
+@keyframes spinner{
+    to{
+        transform: rotate(360deg);
+    } 
+}
