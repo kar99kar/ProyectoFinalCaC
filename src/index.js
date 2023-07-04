@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import "./index.css";
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,8 +11,10 @@ root.render(
     <App />
   </React.StrictMode>
 );
+//AQUI EN EL INDEX RENDERIZAMOS APP
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//React.StrictMode cuando encerramos un componente dentro de strectmode le estamos indicando que van a tener las reglas estrictas de react
+//me tira advertencias en consolapara tener buenas practicas con react
+//App adentro tiene Peliculas Grid, PeliculasGrid adentro tiene un map
+//npm install react-router-dom me permite capturar un id que esta viajando por la url y guardarlo en una variable
+// para que pueda capturar el id de la pelicula y pedir la info de una pelicula en particular 

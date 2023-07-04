@@ -1,0 +1,21 @@
+.contenedorDetalle{
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+.col{
+    max-width: 600px;
+    max-height:700px;
+    margin: 15px;
+    height: auto;
+    width: 80%;
+    border-radius: 15px;
+}
+.peliculaDetalle{
+    font-size: 1.3rem;
+    
+}
+
+.item{
+    margin-top: 0;
+}
